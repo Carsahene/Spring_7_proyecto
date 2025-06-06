@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-vehiculos = pd.read_csv('C:\\Users\\sahen\\Proyectos\\notebook\\vehicles_us.csv')
+vehiculos = pd.read_csv('C:\\Users\\sahen\\Proyectos\\notebook\\Spring_7_proyecto\\vehicles_us.csv')
 
 #Dividir la tabla por el model_year debe decir excelentes condiciones y no debe rebasar los 10000usd
 lista_modelos = ['truck', 'SUV', 'pickup', 'convertible', 'sedan', 'van']
